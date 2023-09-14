@@ -1,0 +1,38 @@
+{
+    "notifications": [
+        {
+            "cron": "1m",
+            "type": "podcast",
+            "podcastUrl": "",
+            "channels": [
+                {
+                    "type": "telegram",
+                    "token": "",
+                    "chatId": -100
+                },
+                {
+                    "type": "telegram",
+                    "token": "",
+                    "chatId": -100
+                }
+            ]
+        },
+        {
+            "cron": "1m",
+            "type": "podcast",
+            "podcastUrl": "",
+            "channels": [
+                {
+                    "type": "telegram",
+                    "token": "",
+                    "chatId": -100
+                },
+                {
+                    "type": "telegram",
+                    "token": "",
+                    "chatId": -100
+                }
+            ]
+        }
+    ]
+}

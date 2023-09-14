@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  bunker-notifier:
+    build: .
+    volumes:
+      - './config:/app/config'
+      - './downloads:/app/downloads'
+    restart: unless-stopped
